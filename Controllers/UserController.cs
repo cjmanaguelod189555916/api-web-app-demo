@@ -45,7 +45,7 @@ namespace WebApi.Controllers
 
                 return response;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 HttpResponseMessage response = new HttpResponseMessage(HttpStatusCode.InternalServerError);
 
@@ -74,7 +74,7 @@ namespace WebApi.Controllers
                 }
                
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 HttpResponseMessage response = new HttpResponseMessage(HttpStatusCode.InternalServerError);
 
