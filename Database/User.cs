@@ -18,5 +18,7 @@ namespace WebApi.Models
         public string Role { get; set; }
 
         public string Details { get; set; }
+
+        public string Test { get; set; }
     }
 }
