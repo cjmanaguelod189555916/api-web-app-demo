@@ -16,5 +16,7 @@ namespace WebApi.Models
         public string Contact { get; set; }
 
         public string Role { get; set; }
+
+        public string Details { get; set; }
     }
 }
