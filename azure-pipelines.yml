@@ -28,7 +28,7 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-- task: PublishArtifacts@1
+
 - task: VSTest@2
   inputs:
     platform: '$(buildPlatform)'
